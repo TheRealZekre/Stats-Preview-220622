@@ -17,7 +17,7 @@ Weights: 400 */
 /*--------------css reset------------------*/
 html {
     box-sizing: border-box;
-    font-size: 16px;
+    font-size: 15px;
   }
   
   *, *:before, *:after {
@@ -52,7 +52,7 @@ html {
 /*--------------Neutral-----------------*/
 --White: hsl(0, 0%, 100%); /*(main heading, stats)*/
 --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75); /*(main paragraph)*/
---Slightly-transparent-white: hsla(0, 0%, 100%, 0.6); /*(stat headings)*/
+--Slightly-less-transparent-white: hsla(0, 0%, 100%, 0.6); /*(stat headings)*/
 }
 
 body {
@@ -74,6 +74,10 @@ h1 {
     font-weight: 700;
 }
 
+.insights {
+    color: var(--Soft-violet);
+}
+
 header {
     flex: 1 0 40%;
     margin: 0 5%;
@@ -85,13 +89,34 @@ header {
    
 }
 
+.stat-header {
+    margin: 20px;
+    color: var(--white);
+    font-size: 2em;
+    font-family: "Inter" sans-serif;
+}
+
 .stat {
     display: flex;
     flex-direction: column;
 }
 
-p {
+.stat-p {
+    color: lightgrey;
+    font-weight: 400;
+    margin: 15px 0px 50px 0px;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: Inter;
+}
 
+.image > img {
+    filter: brightness(50%) sepia(40%) hue-rotate(250deg) saturate(600%) contrast(0.7);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 0 5px 5px 0; 
 }
 
 /*footer*/
