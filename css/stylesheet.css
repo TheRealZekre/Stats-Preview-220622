@@ -111,7 +111,7 @@ header {
 }
 
 .image > img {
-    filter: brightness(50%) sepia(40%) hue-rotate(250deg) saturate(600%) contrast(0.7);
+    filter: brightness(50%) sepia(70%) hue-rotate(250deg) saturate(600%) contrast(0.7);
     display: block;
     max-width: 100%;
     height: auto;
