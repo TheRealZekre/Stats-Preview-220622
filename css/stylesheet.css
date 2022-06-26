@@ -60,7 +60,10 @@ body {
     color: var(--White);
 }
 
-main {
+
+
+
+.container {
     display: flex;
     margin: 30px 30px;
     width: 60%;
@@ -69,6 +72,9 @@ main {
     border-radius: 5px;
 }
 
+
+
+/*
 h1 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -118,6 +124,7 @@ header {
     width: auto;
     border-radius: 0 5px 5px 0; 
 }
+*/
 
 /*footer*/
 .attribution { font-size: 11px; text-align: center; }
