@@ -60,23 +60,60 @@ body {
     color: var(--White);
 }
 
-
-
-
 .container {
     display: flex;
-    margin: 30px 30px;
+    align-items:center;
     width: 60%;
-    align-items: center;
     background-color: var(--Dark-desaturated-blue);
-    border-radius: 5px;
+    margin: 30px;
+    border-radius: 10px;
 }
 
 .insights {
     color: var(--Soft-violet);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+
+
+
 /*
+
+
+
+
+
 h1 {
     font-family: "Inter", sans-serif;
     font-weight: 700;
@@ -126,7 +163,5 @@ header {
 }
 */
 
-/*footer*/
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
 
