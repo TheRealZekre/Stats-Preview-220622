@@ -72,7 +72,9 @@ body {
     border-radius: 5px;
 }
 
-
+.insights {
+    color: var(--Soft-violet);
+}
 
 /*
 h1 {
@@ -80,9 +82,7 @@ h1 {
     font-weight: 700;
 }
 
-.insights {
-    color: var(--Soft-violet);
-}
+
 
 header {
     flex: 1 0 40%;
