@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); /*Lexend Deca 400*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); /*Inter 400 & 700 */
+
+
 /* Front-end Style Guide
 Layout
 The designs were created to the following widths:
@@ -39,9 +43,7 @@ html {
     height: auto;
   }
 
-  /*font import ------------- */
-  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); /*Lexend Deca 400*/
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); /*Inter 400 & 700 */
+
 
 
 :root {
@@ -77,17 +79,22 @@ body {
 .text-section {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 50px;
+    
     }
 
 .text-section h1 {
-    font-family: "Inter" sans-serif;
-    font-weight: 400;
+    font-family: "Lexend Deca" sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    color: var(--White);
 }
 
 .text-section p {
-    font-family: "Lexend Deca";
+    font-family: "Lexend Deca" sans-serif;
     font-weight: 400;
+    line-height: 1.5;
+    margin-top: 30px;
     color: var(--Slightly-less-transparent-white);
 
 }
@@ -96,6 +103,9 @@ body {
     display: inline-flex;
     flex-direction: column;
     color: var(--White);
+    margin-top: 50px;
+    padding-right: 50px;
+    
         
 }
 
@@ -104,7 +114,14 @@ body {
     
 }
 
-
+.image > img {    
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 0 10px 10px 0; 
+    filter: brightness(50%) sepia(70%) hue-rotate(250deg) saturate(600%) contrast(0.7);
+}
 
 
 
