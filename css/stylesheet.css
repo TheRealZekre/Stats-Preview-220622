@@ -138,7 +138,7 @@ body {
 }
 
 
-@media (max-width: 1000px){
+@media (max-width: 1100px){
     .container {
         display: flex;
         flex-direction: column;
@@ -147,13 +147,12 @@ body {
         width: 100%;
         max-width: 500px;
         height: auto;
-        max-height: 1000px;
+        max-height: 1200px;
         background-color: var(--Dark-desaturated-blue);
-        margin: 100px;
+        margin: 50px;
         border-radius: 10px;
     }
-    .description-text {
-        
+    .description-text {        
         text-align: center;
     }
 
@@ -167,7 +166,8 @@ body {
 }
 
 .stats ul li {
-    padding: 10px;
+    display: flex;
+    align-items: center;
 
 }
 
