@@ -123,6 +123,9 @@ body {
 
 .cont {
     color: var(--Slightly-less-transparent-white);
+    text-transform: uppercase;
+    font-weight: 400;
+    
     
 }
 
@@ -145,11 +148,11 @@ body {
         align-items: center;
         flex-flow: column-reverse;
         width: 100%;
-        max-width: 500px;
+        max-width: 400px;
         height: auto;
         max-height: 1200px;
         background-color: var(--Dark-desaturated-blue);
-        margin: 50px;
+        margin: 50px 0 0 150px;
         border-radius: 10px;
     }
     .description-text {        
@@ -168,9 +171,13 @@ body {
 .stats ul li {
     display: flex;
     align-items: center;
-
+    
 }
 
+.cont {
+    padding: 10px 0 0 0;
+    font-size: 1rem;
+}
 
 }
 
